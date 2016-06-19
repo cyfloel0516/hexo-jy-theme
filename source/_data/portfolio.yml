@@ -1,0 +1,9 @@
+- title: Personal website 2.0
+  subtitle: For myself, 2016
+  cover:  images/website_screenshot.png
+  important: true
+  description:
+        -   "Designed, developed and maintained by myself"
+        -   "Node.js, Express, MongoDB, JavaScript, Heroku, HTML5, CSS, jQuery, BootStrap, Google Analytics..."
+        -   "Built on express and hosted on Heroku"
+        -   "Responsive design, make the site mobile friendly"

@@ -1,0 +1,113 @@
+- title: Personal website 2.0
+  key: personal_website_2
+  subtitle: For myself, 2016
+  url: /works/personal_website_2
+  important: true
+  start_year: 2016
+  overview: This system is a key part of 787 e-Enabling project and is developed for 787 engineer data management. I participated in this system from Xiamen Airlines' first 787 import till its maiden flight. As the developer leader, I designed and developed most parts of it.
+  technology: "C#, ASP.net MVC, JavaScript, Python, HTML5, CSS, LESS, jQuery, BootStrap, PostgreSQL, MSSQL Server..."
+  visit: http://www.junkaiyang.com/
+  github: https://github.com/cyfloel0516/website
+  highlight:
+    - Developer leader, participated in both front and back end
+    - Design the data structure and parse algorithm to analysis and store the airplane configuration report
+    - Participated not only in the software development, but also in the e-Enabling architecture construction, including the PKI, EFB, Proxy and Network
+    - Cooperate with Boeing 787 e-Enabling team
+    - Visit Boeing Lab in Seattle for system test and validation
+  description:
+        -   "Designed, developed and maintained by myself"
+        -   "Node.js, Express, MongoDB, JavaScript, Heroku, HTML5, CSS, jQuery, BootStrap, Google Analytics..."
+        -   "Built on express and hosted on Heroku"
+        -   "Responsive design, make the site mobile friendly"
+        -   "Include a blog system for me to manage my blogs"
+  screenshot: ["1", "2"]
+
+
+- title: Captioning System
+  key: captioning
+  subtitle: Syracuse University, 2015
+  url: works/captioning_system
+  visit: https://datascience.ischool.syr.edu
+  github: 
+  start_year: 2015
+  important: true
+  overview: "This website is designed and developed for instructors and studetns to manage lecture videos from YouTube and communicate with others. Moreover, users can correct captions while watching the videos."
+  technology: "Docker, PHP, Laraval, JavaScript, HTML5, CSS, jQuery, BootStrap"
+  highlight: 
+    - "Main developer for both front and back end"
+    - "Use Google and YouTube API for user to manage the video and video captions from YouTube"
+    - "Integrate with Blackboard for user to manage lecture videos by courses"
+    - "Good accessibility, allow user to record voice comments and listen to the voice comments with the YouTube voice track"
+    - "Use Docker to manage dependencies and simplify deployment process"
+  description:
+        -   "Full-Stack Developer"
+        -   "For students and instructors to correct captions, make bookmarks, write comments and communicate with others"
+        -   "Docker, PHP, Laraval, JavaScript, HTML5, CSS, jQuery, BootStrap..."
+        -   "Interface with Google, YouTube and BlackBoard"
+  screenshot: ["1", "2", "3", "4", "5"]
+
+- title: 787 Engineering Data Management System
+  key: edms
+  subtitle: Xiamen Airlines, China, 2015
+  start_year: 2015
+  overview: "This system is a key part of 787 e-Enabling project and is developed for 787 engineer data management. I participated in this system from Xiamen Airlines' first 787 import till its maiden flight. As the developer leader, I designed and developed most parts of it."
+  important: true
+  technology: "C#, ASP.net MVC, JavaScript, Python, HTML5, CSS, LESS, jQuery, BootStrap, PostgreSQL, MSSQL Server..."
+  visit: 
+  github: 
+  highlight:
+    - "Developer leader, participated in both front and back end"
+    - "Design the data structure and parse algorithm to analysis and store the airplane configuration report"
+    - "Participated not only in the software development, but also in the e-Enabling architecture construction, including the PKI, EFB, Proxy and Network"
+    - "Cooperate with Boeing 787 e-Enabling team"
+    - "Visit Boeing Lab in Seattle for system test and validation"
+  description:
+        -   "Developer team leader"
+        -   "For 787 maintenance and engineering management"
+        -   "C# ASP.net MVC, JavaScript, Python, HTML5, CSS, LESS, jQuery, BootStrap..."
+        -   "Cooperate with Boeing 787 e-Enabing team"
+        -   "Visit Boeing Lab in Seattle for testing and validating"
+  screenshot: ["1", "2", "3", "4", "5"]
+
+- title: Persoanl site 1.0
+  key: personal_website_1
+  subtitle: For myself, 2012
+  start_year: 2012
+  visit: http://cyfloel0516.sinaapp.com/
+  github: 
+  overview: "I decided to have my own blog site when I as an intern in my third year of undergraduate study. So I chose WordPress, built my site and hosted it on Sina App Engine. I modified some styles and add some small functions to the original WordPress template. But I haven't post my new blog on it for a long while since I started my previous job."
+
+  technology: "PHP, MySQL, Wordpress, JavaScript, HTML5, CSS..."
+  important: false
+  description:
+        -   "PHP, MySQL, Wordpress, JavaScript, HTML5, CSS..."
+        -   "Developed by myself and hosted on the Sina App Engine"
+        -   "Based on wordpress"
+  highlight:
+    - "Developed by myself and hosted on the Sina App Engine"
+    - "Based on wordpress"
+  screenshot: ["1", "2", "3"]
+
+- title: Personal Calendar
+  key: calendar
+  subtitle: 2010
+  start_year: 2010
+  visit:
+  github:
+  overview: "This website is inspired by Google's exit from China. I want user to have a better system to manage their calendar so I design and develop this website. However, after I began my last year of undergraduate study, I found that only little time left for me to continue this project. Thus, I have only finished parts of my design but it still one of my favorite projects because it is basically the first website I developed and I really learned a lot from it."
+  technology: "Python, Django, MySQL, JavaScript, jQuerym HTML5, CSS, LESS, BootStrap..."
+  important: true
+  description:
+        -   "Python, Django, MySQL, JavaScript, jQuerym HTML5, CSS, LESS, BootStrap..."
+        -   "Designed and developed by myself"
+        -   "Aim to let user to have a good system to manage their calendar"
+        -   "Allow user to create, import and output personal or public calendar"
+  highlight:
+    - "Designed and developed by myself"
+    - "Allow user to manage their calendar"
+    - "User can set repeat type of event based on day, week, year and repeat times"
+    - "User can have multiple calendar book and also subscribe public calendar such like holiday"
+    - "User can set different timezone for each calendar book"
+    - "Allow user to search calendar quickly"
+    - "Provide various of settings to user such like the privacy and share of calendar book, first day of week, etc.."
+  screenshot: ["1", "2", "3", "4", "5", "6"]

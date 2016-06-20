@@ -1,0 +1,65 @@
+<% 
+  page.name = "About me"
+%>
+
+
+<div id="introduction">
+    <p><%- site.data.about.introduction %></p>
+
+    <p>Check my resume here: <a target="_blank" href="<%- '/about/' + site.data.about.resume %>" class="contact-link">RESUME</a></p>
+</div>
+
+
+<div class="row content-section">
+    <div class="col-md-2">
+        <p class="section-title">EDUCATION</p>
+    </div>
+
+    <div class="col-md-10">
+        <% for(var i = 0; i < site.data.about.educations.length; i++){ 
+            var education = site.data.about.educations[i];    
+        %>
+            <div class="education-record record">
+                <p class="record-title"><span class="record-name"><%- education.school %></span><span class="pull-right record-time"><%- education.time %></span>
+                </p>
+                <p class="record-note"><%- education.degree %></p>
+                <p class="record-text"><%- education.description %></p>
+            </div>
+        <%} %>
+    </div>
+</div>
+
+<div class="row content-section">
+    <div class="col-md-2">
+        <p class="section-title">EXPERIENCE</p>
+    </div>
+    <div class="col-md-10">
+        <% for(var i = 0; i < site.data.about.experiences.length; i++){ 
+            var experience = site.data.about.experiences[i];    
+        %>
+        <div class="education-record record">
+            <p class="record-title"><span class="record-name"><%- experience.company %></span><span class="pull-right record-time"><%- experience.time %></span>
+            </p>
+            <p class="record-note"><%- experience.position %></p>
+            <p class="record-text"><%- experience.description %></p>
+        </div>
+        <% } %>
+    </div>
+</div>
+
+
+<div class="row content-section">
+    <div class="col-md-2">
+        <p class="section-title">SKILLS</p>
+    </div>
+    <div class="col-md-10">
+        <div class="education-record record">
+            <% for(var key in site.data.about.skills){ 
+                var skill = site.data.about.skills[key];    
+            %>
+            <p class="record-title"><span class="record-name"><%- key %></span></p>
+            <p class="record-text"><%- skill %></p>
+            <% } %>
+        </div>
+    </div>
+</div>

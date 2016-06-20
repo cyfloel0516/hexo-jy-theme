@@ -1,0 +1,36 @@
+---
+title: Works 
+---
+<% 
+  page.name = "Works"
+%>
+<%  
+    var nowYear = new Date().getFullYear();
+    var prevYear = nowYear - 1;
+    var yearKey = [nowYear.toString(), prevYear.toString(), "Earlier"];
+    
+    var workHash = {};
+    workHash[nowYear.toString()] = [];
+    workHash[prevYear.toString()] = [];
+    workHash["Earlier"] = [];
+    
+    for(var i = 0; i < site.data.works.length; i++){
+        var work = site.data.works[i];
+        if(work.start_year.toString() in workHash)
+            workHash[work.start_year.toString()].push(work);
+        else
+            workHash["Earlier"].push(work)
+    }
+%>
+
+<% for(var i in yearKey ) {%>
+    <% var year = yearKey[i] %>
+    <% if(year in workHash && workHash[year].length > 0){ %>
+        <div class="year-wrapper"><h4><%- year %></h4></div>
+
+        <% for(var j in workHash[year]){%>
+            <%- partial('_partial/work_intro', {work: workHash[year][j]} ) %>
+        <%}%>
+
+    <%} %>
+<% } %>

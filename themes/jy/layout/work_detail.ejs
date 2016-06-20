@@ -1,0 +1,55 @@
+---
+title: "Works"
+---
+<% 
+  page.name = "Works"
+%>
+<%
+    var work = null;
+    for(var i = 0 ; i< site.data.works.length; i++){
+        if(site.data.works[i].key == page.key){
+            work = site.data.works[i];
+            break;
+        }
+    }
+%>
+<div id="detail-title">
+    <h2><%- work.title %></h2>
+    <p><%- work.subtitle %></p>
+</div>
+
+<div id="detail-overview">
+    <h3 class="section-title">Overview</h3>
+    <p><%- work.overview %></p>
+</div>
+
+<div id="detail-technology">
+    <h3 class="section-title">Technology</h3>
+    <p><%- work.technology %></p>
+</div>
+
+<div id="detail-highlight">
+    <h3 class="section-title">Highlight</h3>
+    <ul>
+    <% for(var i = 0 ; i< work.highlight.length; i++){%>
+        <li><%- work.highlight[i] %>
+    <%}%>
+    </ul>
+</div>
+
+<div id="detail-screenshot-wrapper">
+    <h3 class="section-title">Screenshot</h3>
+    <% for(var i = 0 ; i< work.screenshot.length; i++){%>
+        <div class="detail-screenshot"><img src="<%- '/works/images/' + work.key + '/' + work.screenshot[i] + '.png'%>"></div>
+    <%}%>
+</div>
+
+<div id="detail-more">
+    <% if(work.visit){ %>
+    <a class="visit" href="<%- work.visit %>">VISIT IT</a>
+    <%}%>
+
+    <% if(work.github){ %>
+    <a class="visit" href="<%- work.github %>">GITHUB</a>
+    <%}%>
+</div>

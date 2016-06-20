@@ -1,0 +1,14 @@
+<div class="work row">
+    <div class="work-image-wrapper col-md-6"><img src="<%- '/works/images/' + work.key + '_screenshot.png' %>" class="work-image">
+        <a href="<%- url_for('/works/' + work.key + '.html') %>" class="seemore"></a>
+    </div>
+    <div class="work-content-wrapper col-md-6">
+        <h4 class="work-title"><a href="<%- url_for('/works/' + work.key + '.html') %>"><%- work.title %></a></h4>
+        <p class="work-subtitle"><%- work.subtitle %></p>
+        <ul>
+            <% for (var j= 0 ; j < work.description.length ; j++) {%>
+            <li><%- work.description[j] %></li>
+            <% } %>
+        </ul>
+    </div>
+</div>

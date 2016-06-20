@@ -1,0 +1,44 @@
+introduction: "I am a passionate full-stack engineer interested in designing and developing all kinds of software. I have good sense on UI/UX design and experienced in a variety of development skills. I currently study in Syracuse University for my master degree in computer science and expect to graduate in May 2017."
+
+resume: "Resume-JunkaiYang.pdf"
+
+educations: 
+-
+    school: Syracuse University
+    time: 2015-2017
+    degree: Master of Computer Science
+    description: "courses: Mathematical Basis for Computing, Structured Programming and Formal Methods, Computer Architecture, Principles of Operating Systems, Design and Analysis of Algorithms, Object Oriented Design"
+    
+-
+    school: FuZhou University
+    time: 2012-2015
+    degree: Bachelor's degree of Computer Science
+    course: "courses: Algorithms and Data Structure, Numerical Computation, Discrete Mathematics, Object-Oriented Programming, Operating System, Principles of Database System, C# Programming, Java Programming, Web Programming, XML Programming, Software Engineering, Compiling Princples, UML, Data Communication and Computer Network..."
+
+experiences:
+    -
+        company: Social Computing Systems Lab, Syracuse University
+        time: 2015-Now
+        position: Research Assistant
+        description: Help to design and develop web application on both front-end and back-end
+
+    -
+        company: Xiamen Airlines, China
+        time: 2012-2015
+        position: Full-Stack Engineer
+        description: Mainly focus on web application design and develop for aircraft maintenance and engineering.
+
+    -
+        company: HAND Corporation, Shanghai, China
+        time: 2011
+        position: SAP Technical Implementation Consultant Internship
+        description: Help to develop enterprise software upon the SAP ECC6.0 platform.
+
+
+skills:
+    Programming: "JavaScript, PHP, Python, C#, C++, Java, HTML5, CSS, SQL, XML, ABAP"
+    Database: "MS SQL Server, MySQL, PostgreSQL, MongoDB, SQLite"
+    Framework: "ASP.Net MVC, Node.js, Django, jQuery, Backbone, Bootstrap, Laravel, Jade, Mustache, Express, AngularJS, LESS, SASS"
+    Others: "RESTful API, SOAP, WCF, UML, Docker, Vagrant, SVN, Git, AWS, SAP, IIS, Apache"
+        
+

@@ -31,7 +31,7 @@ name: "12345"
           <%- site.data["about"]["introduction"] %>
           </p>
           <div class="content-learn-more">
-            <a href="/aboutme" class="btn btn-default btn-lg">LEARN MORE</a>
+            <a href="<%- url_for('about') %>" class="btn btn-default btn-lg">LEARN MORE</a>
           </div>
         </div>
     </div>
@@ -48,7 +48,7 @@ name: "12345"
             <% } %>
             <% } %>
         </div>
-        <div class="content-learn-more"><a href="/works" class="btn btn-default btn-lg">LEARN MORE</a>
+        <div class="content-learn-more"><a href="<%- url_for('/works')%>" class="btn btn-default btn-lg">LEARN MORE</a>
         </div>
     </div>
   </div>

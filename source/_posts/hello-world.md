@@ -4,6 +4,7 @@ categories:
 - Sports
 - Baseball
 
+comments: true
 tags:
 - Injury
 - Fight

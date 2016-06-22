@@ -1,6 +1,7 @@
 ---
 title: Test-new-post
 date: 2016-06-22 13:54:02
+comments: true
 tags:
 ---
 # Dependency Analyser

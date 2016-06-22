@@ -1,10 +1,16 @@
 <% if (site.tags.length){ %>
-<div class="widget tag">
-  <h3 class="title"><%= __('tags') %></h3>
-  <ul class="entry">
-  <% site.tags.sort('name').each(function(item){ %>
-    <li><a href="<%- config.root %><%- item.path %>"><%= item.name %></a><small><%= item.posts.length %></small></li>
-  <% }); %>
-  </ul>
+
+<div class="panel panel-default widget tags">
+  <div class="panel-heading">Tags</div>
+  <div class="panel-body">
+    <div class="tag-list">
+
+      <% site.tags.sort('name').each(function(item){ %>
+        <a class="tag" href="<%- config.root %><%- item.path %>">
+          <span class="glyphicon glyphicon-tag" aria-hidden="true"></span><%= item.name %>
+        </a>
+      <% }); %>
+    </div>
+  </div>
 </div>
 <% } %>

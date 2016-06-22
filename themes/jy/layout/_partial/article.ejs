@@ -9,25 +9,6 @@
   <div class="post-content">
     <header>
       <%- partial('post/title') %>
-      <% if (item.layout != 'page'){ %>
-        <div class="icon"></div>
-        
-        <div>
-          <time class="meta-item meta-date" datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= moment(item.date.toDate()).format("MMM D, YYYY") %></a></time>
-          <% if (item.categories && item.categories.length){ %>
-          <%
-            var cats = [];
-            item.categories.forEach(function(cat){
-              cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
-            });
-          %>
-          <span class="categories meta-item meta-category">
-            <%- cats.join(', ') %>
-          </span>
-        <% } %>
-        
-        </div>
-      <% } %>
     </header>
     <div class="entry">
       <% if (item.excerpt && index){ %>
@@ -48,10 +29,6 @@
           <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
         </div>
         <% } %>
-      <% } else { %>
-        <%- partial('post/category') %>
-        <%- partial('post/tag') %>
-        <%- partial('post/share') %>
       <% } %>
       <div class="clearfix"></div>
     </footer>

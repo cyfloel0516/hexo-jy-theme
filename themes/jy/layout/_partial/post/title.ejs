@@ -11,3 +11,36 @@
     <h1 class="title"><%= item.title %></h1>
   <% } %>
 <% } %>
+
+
+<div class="icon"></div>
+
+<div>
+  <time class="meta-item meta-date" datetime="<%= item.date.toDate().toISOString() %>"><%= moment(item.date.toDate()).format("MMM D, YYYY") %></time>
+  <% if (item.categories && item.categories.length){ %>
+  <%
+    var cats = [];
+    item.categories.forEach(function(cat){
+      cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
+    });
+  %>
+  <span class="categories meta-item meta-category">
+    Categories: 
+    <%- cats.join(', ') %>
+  </span>
+  <% } %>
+
+  <% if (item.tags && item.tags.length){ %>
+  <%
+    var tags = [];
+    item.tags.forEach(function(tag){
+      tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
+    });
+  %>
+  <span class="tags meta-item meta-tag">
+    Tags: 
+    <%- tags.join(', ') %>
+  </span>
+  <% } %>
+
+</div>

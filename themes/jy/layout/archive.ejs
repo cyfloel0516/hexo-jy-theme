@@ -3,8 +3,18 @@
   page.name = "Blogs"
 %>
 
-<% page.posts.each(function(item){ %>
-  <%- partial('_partial/article', {item: item, index: true}) %>
-<% }); %>
+<div class="row">
+    <div class="col-md-9">
+        <% page.posts.each(function(item){ %>
+        <%- partial('_partial/article', {item: item, index: true}) %>
+        <% }); %>
+        
+        <%- partial('_partial/pagination') %>
+    </div>
 
-<%- partial('_partial/pagination') %>
+    <div class="col-md-3">
+        <% theme.widgets.forEach(function(widget){ %>
+            <%- partial('./_widget/' + widget) %>
+        <% }); %>
+    </div>
+</div>

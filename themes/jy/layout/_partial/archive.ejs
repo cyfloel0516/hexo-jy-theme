@@ -4,13 +4,21 @@ if (page.category) title = page.category;
 if (page.tag) title = page.tag;
 if (page.archive){
     if (page.year) title = page.year + (page.month ? '/' + page.month : '');
-    else title = __('archive_a');
+    else title = 'Blogs';
   //title = "Archives"
 }
 %>
 
-<h1 class="archive-title<% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>"><%= title %></h1>
-
+<h1 class="archive-title<% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>">
+    <% if (page.tag){ %> 
+    <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+  <% } %>
+  <% if (page.category){ %> 
+    <span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>
+    <% } %>
+  <%= title %>
+</h1>
+<hr />
 <% if (pagination == 2){ %>
   <% page.posts.each(function(item){ %>
     <%- partial('article', {item: item, index: true}) %>
@@ -20,32 +28,7 @@ if (page.archive){
 <% } else { %>
   <div class="archive">
     <% page.posts.sort('title', 'desc').each(function(item){ %>
-      <article class="<%= item.layout %>">
-        <div class="post-content">
-          <header>
-            <div class="icon"></div>
-            <% if (item.link){ %>
-              <% if (item.title){ %>
-                <h1 class="title link"><a href="<%- item.link %>" target="_blank"><%= item.title %></a></h1>
-              <% } else { %>
-                <h1 class="title link"><a href="<%- item.link %>" target="_blank"><%= item.link %></a></h1>
-              <% } %>
-            <% } else { %>
-              <h1 class="title"><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></h1>
-            <% } %>
-
-
-            <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= moment(item.date.toDate()).format("MMM D, YY") %></a></time>
-            
-            <span></span>
-
-            <h1 class="title"><%- item.excerpt %></h1>
-            <% item.categories.forEach(function(tag){ %>
-              
-            <% }); %>
-          </header>
-        </div>
-      </article>
+      <%- partial('article', {item: item, index: true}) %>
     <% }); %>
   </div>
 <% } %>

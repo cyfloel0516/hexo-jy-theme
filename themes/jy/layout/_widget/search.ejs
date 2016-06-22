@@ -1,6 +1,9 @@
 <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="<%= __('search') %>">
-    <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
+  <form action="//google.com/search" method="get" accept-charset="utf-8" class="form-inline">
+    <div class="form-group search-input-wrapper">
+      <label class="sr-only" for="search-input">Search Post</label>
+      <input id="search-input"  type="search" name="q" results="0" placeholder="<%= __('search') %>" class="form-control">
+      <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
+    </div>
   </form>
 </div>

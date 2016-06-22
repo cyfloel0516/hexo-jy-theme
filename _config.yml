@@ -72,3 +72,6 @@ deploy:
   type: heroku
   repo: https://git.heroku.com/mysterious-river-32529.git
   message: ""
+
+sitemap:
+    path: sitemap.xml

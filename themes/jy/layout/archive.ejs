@@ -1,1 +1,10 @@
-<%- partial('_partial/archive', {pagination: config.archive}) %>
+<!--<%- partial('_partial/archive', {pagination: config.archive}) %>-->
+<% 
+  page.name = "Blogs"
+%>
+
+<% page.posts.each(function(item){ %>
+  <%- partial('_partial/article', {item: item, index: true}) %>
+<% }); %>
+
+<%- partial('_partial/pagination') %>

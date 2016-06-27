@@ -25,7 +25,7 @@ addthis:
 
 fancybox: true
 
-google_analytics:
+google_analytics: UA-76156966-1
 rss:
 
 comment_provider: facebook

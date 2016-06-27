@@ -1,7 +1,6 @@
 ---
 title: Hello World
 categories:
-- Development
 
 comments: false
 

@@ -12,18 +12,18 @@ tags:
 - React
 
 ---
-Currently, my team wants to move some function in our Captioning Project into a Chrome Extension and then it can be used in many video website such like YouTube and MOOC such like Coursera. 
+Currently, my team wants to move some function in our Captioning Project into a Chrome extension and then it can be used in many video website such like YouTube and MOOC such like Coursera. 
 
-In our website, we just use JavaScript and jQuery to control our page and with the page complexity increasing, the coding and maintenance becomes more and more difficult. And that's the incentive for me to use React in this Chrome Extension.
+In our website, we just use JavaScript and jQuery to control our page and with the page complexity increasing, the coding and maintenance becomes more and more difficult and that's the incentive for me to use React in this Chrome extension.
 
-I write this post to help myself get a better understanding and also hope to help someone in need. I believe this post can help you in building a extension but either you cannot find what you want or find something wrong, please refer to the [Chrome extension official document](https://developer.chrome.com/extensions/overview) here or leave your comments.
+I write this post to help myself get a better understanding and also hope to help someone in need. I believe this post can help you in building an extension but either you cannot find what you want or find something wrong, please refer to the [Chrome extension official document](https://developer.chrome.com/extensions/overview) or leave your comments.
 
 From this post, I will show these basic things for building an extension:
 1. Open a menu window in current page when user clicks the extension button
 2. Manipulate the page with content scripts
 3. Messaging between page component and extension script
 
-Meanwhile, I will show how to use React and Gulp to make development easiler and better.
+Meanwhile, I will try to introduce how to use React and Gulp to make development easiler and better.
 
 *The repo of my extension can be found [here](https://github.com/cyfloel0516/video_caption_chrome_extension)*
 

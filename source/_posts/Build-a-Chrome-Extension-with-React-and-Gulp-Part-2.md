@@ -243,4 +243,5 @@ So far, we have already create these things:
 Now if we put all these codes together and you can see when we click the extension icon then a menu window will be shown on the top-right corner of this page. You can check all the codes in my repo [here](https://github.com/cyfloel0516/video_caption_chrome_extension). **But pay attention that my code doesn't work on any website because it is just for test and only works for some YouTube and Coursera page.** However, it should be easy to pull out some codes and use them in your project.
 
 [Build a Chrome Extension with React and Gulp - Part 1](/blogs/2016/06/26/Build-a-Chrome-Extension-with-React-and-Gulp-Part-1/)
-[Build a Chrome Extension with React and Gulp - Part 2](/blogs/2016/06/26/Build-a-Chrome-Extension-with-React-and-Gulp-Part-2/)
+[Build a Chrome Extension with React and Gulp - Part 2](/blogs/2016/06/27/Build-a-Chrome-Extension-with-React-and-Gulp-Part-2/)
+[Build a Chrome Extension with React and Gulp - Part 3](/blogs/2016/06/27/Build-a-Chrome-Extension-with-React-and-Gulp-Part-3/)

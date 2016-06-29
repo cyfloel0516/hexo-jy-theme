@@ -87,4 +87,5 @@ Knowing these layers can help you structure your project, you can take a look at
 In part 1 I just briefly introduce some basics of Chrome extension, in the next few post I will show the details of buidling an extension.
 
 [Build a Chrome Extension with React and Gulp - Part 1](/blogs/2016/06/26/Build-a-Chrome-Extension-with-React-and-Gulp-Part-1/)
-[Build a Chrome Extension with React and Gulp - Part 2](/blogs/2016/06/26/Build-a-Chrome-Extension-with-React-and-Gulp-Part-2/)
+[Build a Chrome Extension with React and Gulp - Part 2](/blogs/2016/06/27/Build-a-Chrome-Extension-with-React-and-Gulp-Part-2/)
+[Build a Chrome Extension with React and Gulp - Part 3](/blogs/2016/06/27/Build-a-Chrome-Extension-with-React-and-Gulp-Part-3/)

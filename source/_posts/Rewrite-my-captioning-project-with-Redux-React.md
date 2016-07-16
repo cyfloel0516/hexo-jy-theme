@@ -10,9 +10,8 @@ tags:
 - Redux
 ---
 
-## Background
-
 In my current project, we are developing a captioning web application which allows instructors and students to manage lecture videos, correct the captions and also communicate with others by writting comments or make bookmarks. First we used jQuery and the template library Mustache. They worked very well at first because the only UI component who needs the captions data is the main captions editor(see the figure below). So we can simply use jQuery to manipulate the UI component when data changes. 
+<!-- more -->
 ![](main-editor.png)
 
 But later on, we believed we need a captions global view in the left side(see the figure below). It is a very simple function but think about that: when user edits the captions from the main editor, we need to change the captions in the global view. Conversely, when user clicks a sentence in the global view, we need to change the current sentence in the main editor. 

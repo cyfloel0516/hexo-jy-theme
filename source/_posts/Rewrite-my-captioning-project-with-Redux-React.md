@@ -1,4 +1,4 @@
-title: Rewrite my captioning project with Redux-React
+title: Rewrite SU captioning project with Redux-React
 date: 2016-07-15 22:18:15
 
 categories:

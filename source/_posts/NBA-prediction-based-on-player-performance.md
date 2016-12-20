@@ -22,6 +22,8 @@ they will compare each position and find the advantages. Moreover, if a key play
 injured and cannot play in the next game, then the team will definitely have lower
 chance to win the game.
 
+<!-- more -->
+
 ## The idea of the new predictor
 As mentioned before, there are some flaws for a tradional prediction model. One easy way to solve these problems comes into my head that I can use the player performance comparison data instead of using the game history to predict the game. 
 

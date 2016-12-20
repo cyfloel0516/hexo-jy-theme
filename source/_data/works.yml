@@ -1,3 +1,27 @@
+- title: Flea Market
+  key: flea_market
+  subtitle: Project for my Mobile Programming course
+  start_year: 2016
+  visit:
+  github:
+  technology: "IOS, Swift 3, Node.js"
+  overview: "This is a full-stack application and it is for my Mobile Programming course project. There are two members in this team and we developed both front-end IOS application and backend-end Node.js server. The motivation of this project is because we found that it becomes a big problem for international student to dispose of used items when they finish the study. Therefore, we want to provide a place for students to sell and buy used items. These application is still in developing and we hope to publish it to AppStore in near future. Moreover, we plan to provide a web application as well."
+  important: true
+  description:
+        -   "IOS, Swift 3, Node.js, Full-Stack application"
+        -   "Design and develop frontend IOS application "
+        -   "Develop backend Node.js server to provide RESTful API"
+        -   "Still in progresss"
+  highlight:
+    -   "Develop server side with Node.js to provide RESTful API to clients"
+    -   "Develop IOS application with Swift 3"
+    -   "Allow user to login with email or facebook"
+    -   "Allow user to post and view used items"
+    -   "Provide message system in application"
+    -   "Provide customizable settings"
+  screenshot: ["1", "2", "3", "4"]
+
+
 - title: Personal website 2.0
   key: personal_website_2
   subtitle: For myself, 2016
@@ -9,7 +33,7 @@
   visit: http://www.junkaiyang.com/
   github: https://github.com/cyfloel0516/website
   highlight:
-    - Developer leader, participated in both front and back end
+    - Developer leader, participated in both frontend and backend
     - Design the data structure and parse algorithm to analysis and store the airplane configuration report
     - Participated not only in the software development, but also in the e-Enabling architecture construction, including the PKI, EFB, Proxy and Network
     - Cooperate with Boeing 787 e-Enabling team
@@ -34,7 +58,7 @@
   overview: "This website is designed and developed for instructors and studetns to manage lecture videos from YouTube and communicate with others. Moreover, users can correct captions while watching the videos."
   technology: "Docker, PHP, Laraval, JavaScript, HTML5, CSS, jQuery, BootStrap"
   highlight: 
-    - "Main developer for both front and back end"
+    - "Main developer for both frontend and backend"
     - "Use Google and YouTube API for user to manage the video and video captions from YouTube"
     - "Integrate with Blackboard for user to manage lecture videos by courses"
     - "Good accessibility, allow user to record voice comments and listen to the voice comments with the YouTube voice track"
@@ -56,7 +80,7 @@
   visit: 
   github: 
   highlight:
-    - "Developer leader, participated in both front and back end"
+    - "Developer leader, participated in both frontend and backend"
     - "Design the data structure and parse algorithm to analysis and store the airplane configuration report"
     - "Participated not only in the software development, but also in the e-Enabling architecture construction, including the PKI, EFB, Proxy and Network"
     - "Cooperate with Boeing 787 e-Enabling team"

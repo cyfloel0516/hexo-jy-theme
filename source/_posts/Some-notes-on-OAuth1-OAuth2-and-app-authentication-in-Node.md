@@ -14,6 +14,8 @@ Authentication is one of most important things for almost every application toda
 
 I believe it is not hard to integrate an app with Google or Facebook, all you need is to simply follow the docs step by step. But I also believe it will be better if we can get a fully understanding of how it works. That's why I decided to write some notes based on my experience on this topic.
 
+<!-- more -->
+
 ## Basic idea of OAuth1/OAuth2
 
 Now Google and Facebook are both moving to OAuth2 but the basic idea behind OAuth1 and OAuth2 is very similar: user information is sensitive data so all the requests require authentication. The key steps for OAuth1 and OAuth2 can be concluded as:

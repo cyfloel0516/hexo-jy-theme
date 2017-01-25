@@ -1,4 +1,4 @@
-title: Some notes on OAuth1/OAuth2
+title: Some notes on OAuth1/OAuth2 and the implementation in Node.js
 date: 2017-01-22 21:58:01
 
 categories:
